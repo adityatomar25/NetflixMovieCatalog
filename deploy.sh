@@ -1,3 +1,8 @@
-#!/bin/bash
+sudo systemctl stop simplepy.service
 
-# TODO your deploy script implementation...
+sudo systemctl enable simplepy.service
+
+sudo systemctl start simplepy.service
+
+sudo systemctl start nginx
+
