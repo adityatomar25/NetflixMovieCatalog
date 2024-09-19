@@ -1,8 +1,8 @@
-sudo systemctl stop simplepy.service
+sudo systemctl stop netflix.service
 
-sudo systemctl enable simplepy.service
+sudo systemctl enable netflix.service
 
-sudo systemctl start simplepy.service
+sudo systemctl start netflix.service
 
 sudo systemctl start nginx
 
